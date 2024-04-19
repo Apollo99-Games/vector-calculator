@@ -29,10 +29,16 @@ This is a demonstration using the vector VectorCalculator class to create a quiz
 - Calculate Dot Product
 - Calculate Addition
 - Calculate subtraction
+- Find the angle between two vectors
+- Complex, which is a mix of add, subtract, scalar multiples, and Cross Product
+- To see the correct answer, type in “answer.”
+- If the final answer is a vector, put it in vector format: [4, 3, 6]
+- If the final answer is a scalar, don't put square brackets: -56
+- Don't use decimals; use fractions for angles that are round to nearest the integer.
 
 # Using the Vector Calculator for your own projects: 
 
-#Here is an example of using the VectorCalculator class to solve an equation:
+Here is an example of using the VectorCalculator class to solve an equation:
 ```java
 public class test {
     public static void main(String[] args) {
@@ -44,9 +50,3 @@ public class test {
     }
 }
 ```
-- Find the angle between two vectors
-- Complex, which is a mix of add, subtract, scalar multiples, and Cross Product
-- To see the correct answer, type in “answer.”
-- If the final answer is a vector, put it in vector format: [4, 3, 6]
-- If the final answer is a scalar, don't put square brackets: -56
-- Don't use decimals; use fractions for angles that are round to nearest the integer.
