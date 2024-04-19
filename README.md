@@ -33,7 +33,7 @@ This is a demonstration using the vector VectorCalculator class to create a quiz
 # Using the Vector Calculator for your own projects: 
 
 #Here is an example of using the VectorCalculator class to solve an equation:
-'''java
+```java
 public class test {
     public static void main(String[] args) {
         try {
@@ -43,7 +43,7 @@ public class test {
         }
     }
 }
-'''
+```
 - Find the angle between two vectors
 - Complex, which is a mix of add, subtract, scalar multiples, and Cross Product
 - To see the correct answer, type in “answer.”
