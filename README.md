@@ -21,9 +21,6 @@ The Java Version used to test the code:
 - To avoid this use brackets like: 5[6, 4, 6] * (5[4, 4, 6] + 3[5, 6, 6])
 - Don't use decimals, use fractions: Improper: 7/2[-30/4, 4], Mixed: 3 1/2[-7 1/2, 4]
 
-
-
-
 # Quiz: 
 This is a demonstration using the vector VectorCalculator class to create a quiz to test students
 
@@ -32,6 +29,21 @@ This is a demonstration using the vector VectorCalculator class to create a quiz
 - Calculate Dot Product
 - Calculate Addition
 - Calculate subtraction
+
+# Using the Vector Calculator for your own projects: 
+
+#Here is an example of using the VectorCalculator class to solve an equation:
+'''java
+public class test {
+    public static void main(String[] args) {
+        try {
+            System.out.println(VectorCalculator.calculate("(5 4/3[5, 2, 9] * 5/7[6, 12, 9]) x (5/2[5, 6, 9] * 5/7[6, 12, 9])"));
+        } catch (Exception e) {
+            System.out.println("Something went wronge: " + e.getMessage());
+        }
+    }
+}
+'''
 - Find the angle between two vectors
 - Complex, which is a mix of add, subtract, scalar multiples, and Cross Product
 - To see the correct answer, type in “answer.”
