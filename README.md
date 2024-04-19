@@ -45,8 +45,37 @@ public class test {
         try {
             System.out.println(VectorCalculator.calculate("(5 4/3[5, 2, 9] * 5/7[6, 12, 9]) x (5/2[5, 6, 9] * 5/7[6, 12, 9])"));
         } catch (Exception e) {
-            System.out.println("Something went wronge: " + e.getMessage());
+            System.out.println("Something went wrong: " + e.getMessage());
         }
+    }
+}
+```
+Note: the function has to be around a try/catch, as it will throw an exception if the vector format is wrong.
+
+# Using the Vector Class for your own projects: 
+
+You can also use the vector class to do the calculations. Note that there are no brackets in this case, and the order of operations will not be preserved. 
+The equation would be calculated from left to right.
+```java
+public class test {
+    public static void main(String[] args) throws IllegalAccessException {
+
+        vector a = new vector(new Fraction(4), new Fraction(3), new Fraction(0)); 
+        vector b = new vector(new Fraction(8), new Fraction(-4), new Fraction(5));
+        Fraction m = new Fraction(4, 3); 
+        System.out.println(a.add(b)); //[12, -1, 5]
+        System.out.println(a.subtract(b)); //[-4, 7, -5]
+        System.out.println(a.dotProduct(b)); //[20]
+        System.out.println(a.crossProduct(b)); //[15, -20, -40]
+        System.out.println(a.scalarMultiply(m)); // [5 1/3, 4, 0]
+        System.out.println(vector.abs(a)); // 5.0
+        System.out.println(vector.abs(b)); // 10.246950765959598
+        System.out.println(vector.angle(a, b)); //67
+
+        // Note that you can also convert a string to a vector: 
+        System.out.println(vector.valueOf("[1, 2 1/2]")); // [1, 2 1/2]
+        System.out.println(vector.valueOf("[3 1/2, 1 1/9]")); // [3 1/2, 1 1/9]
+        System.out.println(vector.valueOf("[2 -3/7, 3/7]")); // [2 -3/7, 3/7]
     }
 }
 ```
