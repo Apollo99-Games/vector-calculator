@@ -1,6 +1,6 @@
 # vector-calculator
 
-This is an implementation of a vector calculator in Java. Note you will need some JDK and preferably an IDE to run the code as it requires a terminal to print the result (I used VS code).
+This is an implementation of a vector calculator in Java for vectors up to 3D. Note you will need some JDK and preferably an IDE to run the code as it requires a terminal to print the result (I used VS code).
 
 The Java Version used to test the code: 
 - openjdk version "17.0.11" 2024-04-16
@@ -14,7 +14,7 @@ The Java Version used to test the code:
 - For operations put the symbol between the Vectors: 5[6, 4] + 5[4, 4] - 6[5, 4]
 - For Addition use +, Subtraction use -, Dot product use *, Cross product use x
 - The order of operations is scalar multiplication, Cross, Dot, then Addition or Subtraction (whichever comes first)
-- Can't do operations on Vectors with different dimensions Like: 5[6, 4] + 5[4, 4, 6]
+- Can't do operations on Vectors with different dimensions like: 5[6, 4] + 5[4, 4, 6]
 - Can't do operations between Vectors and scalars: 5[6, 4, 6] * 5[4, 4, 6] + 3[5, 6, 6]
 - Negative symbols can’t have a space between them like: - 5
 - Must be like -5. However, the symbol can have a space if it is an operator like:  5[4, 4, 6] - 3[5, 6, 6]
@@ -29,12 +29,12 @@ This is a demonstration using the vector VectorCalculator class to create a quiz
 - Calculate Dot Product
 - Calculate Addition
 - Calculate subtraction
-- Find the angle between two vectors
+- Find the angle between two vectors (for this question round to the nearest whole number)
 - Complex, which is a mix of add, subtract, scalar multiples, and Cross Product
 - To see the correct answer, type in “answer.”
 - If the final answer is a vector, put it in vector format: [4, 3, 6]
 - If the final answer is a scalar, don't put square brackets: -56
-- Don't use decimals; use fractions for angles that are round to nearest the integer.
+- Don't use decimals; use fractions.
 
 # Using the Vector Calculator for your own projects: 
 
