@@ -3,7 +3,9 @@
 This is an implementation of a vector calculator in Java for vectors up to 3D. Note you will need some JDK and preferably an IDE to run the code as it requires a terminal to print the result (I used VS code).
 The vector calculator can be run from the "Main.java" file.
 
-The Java Version used to test the code: 
+You can run the program on [Replit](https://replit.com/@WahhajKhan/Vector-Calculator?v=1).
+
+### The Java Version used to test the code: 
 - openjdk version "17.0.11" 2024-04-16
 - OpenJDK Runtime Environment Temurin-17.0.11+9 (build 17.0.11+9)
 - OpenJDK 64-Bit Server VM Temurin-17.0.11+9 (build 17.0.11+9, mixed mode, sharing)
